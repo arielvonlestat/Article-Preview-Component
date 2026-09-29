@@ -105,6 +105,20 @@ time {
   color: hsl(228, 45%, 44%);
 }
 
+.share-menu {
+  position: absolute;
+  background-color: var(--VeryDarkGrayishBlue);
+  width: 330px;
+  height: 65px;
+  border: 2px solid red;
+  border-radius: 0 0 0.5rem 0.5rem;
+  /* display: none; */
+}
+
+.share-menu.active {
+  display: block;
+}
+
 @media (min-width: 700px) {
   .card {
     display: flex;
