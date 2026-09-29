@@ -32,33 +32,37 @@ time {
 }
 
 .card {
+  border-radius: 0.5rem;
   max-width: 330px;
   background-color: white;
 }
 
 .drawers {
+  border-radius: 0.5rem 0.5rem 0 0;
   width: 100%;
 }
 
 .card h1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-size: 1rem;
   font-weight: 700;
   color: var(--VeryDarkGrayishBlue);
-  padding-top: 1.5rem;
-
+  padding-top: 2rem;
+  padding-inline: 2rem;
   line-height: 1.5rem;
 }
 
 .card p {
   color: var(--GrayishBlue);
-  padding-top: 1rem;
-  padding-right: 1rem;
-  line-height: 1.5rem;
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2.5rem;
+  line-height: 1.3rem;
 }
 
 .card address {
-  padding-block: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
 }
 
 .author {
