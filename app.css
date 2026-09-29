@@ -23,9 +23,16 @@ body {
   align-items: center;
 }
 
+button {
+  border: none;
+}
+
+time {
+  color: var(--GrayishBlue);
+}
+
 .card {
-  width: 330px;
-  height: 580px;
+  max-width: 330px;
   background-color: white;
 }
 
@@ -34,16 +41,17 @@ body {
 }
 
 .card h1 {
+  border: 2px solid red;
   font-size: 1rem;
   font-weight: 700;
   color: var(--VeryDarkGrayishBlue);
   padding-top: 1.5rem;
+
   line-height: 1.5rem;
 }
 
 .card p {
-  color: var(--VeryDarkGrayishBlue);
-  font-size: 0.8rem;
+  color: var(--GrayishBlue);
   padding-top: 1rem;
   padding-right: 1rem;
   line-height: 1.5rem;
@@ -53,12 +61,9 @@ body {
   padding-block: 1rem;
 }
 
-/* .information {
-  padding-inline: 2rem;
-} */
-
 .author {
-  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
 }
 
 .michelle {
@@ -69,12 +74,21 @@ body {
   border-radius: 1.5rem;
   background-color: var(--LightGrayishBlue);
   padding: 0.5rem;
+  display: flex;
+  align-self: center;
+}
+
+.name {
+  font-weight: 700;
+  color: var(--VeryDarkGrayishBlue);
 }
 
 .namedate {
-  padding-top: 1.7rem;
-  border: 2px solid red;
-  /* justify-content: space-between; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: -3rem;
+  margin-top: 0.15rem;
 }
 
 .attribution {
