@@ -1,3 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+  --GrayishBlue: hsl(212, 23%, 69%);
+  --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8125rem;
+  min-height: 100vh;
+  font-weight: 500;
+  background-color: var(--LightGrayishBlue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 330px;
+  height: 580px;
+  background-color: white;
+}
+
+.drawers {
+  width: 100%;
+}
+
+.card h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--VeryDarkGrayishBlue);
+  padding-top: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.card p {
+  color: var(--VeryDarkGrayishBlue);
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  line-height: 1.5rem;
+}
+
+.card address {
+  padding-block: 1rem;
+}
+
+/* .information {
+  padding-inline: 2rem;
+} */
+
+.author {
+  border: 2px solid red;
+}
+
+.michelle {
+  border-radius: 1.5rem;
+}
+
+.share {
+  border-radius: 1.5rem;
+  background-color: var(--LightGrayishBlue);
+  padding: 0.5rem;
+}
+
+.namedate {
+  padding-top: 1.7rem;
+  border: 2px solid red;
+  /* justify-content: space-between; */
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
