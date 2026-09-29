@@ -40,10 +40,12 @@ time {
 .drawers {
   border-radius: 0.5rem 0.5rem 0 0;
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 70% 30%;
 }
 
 .card h1 {
-  /* border: 2px solid red; */
   font-size: 1rem;
   font-weight: 700;
   color: var(--VeryDarkGrayishBlue);
