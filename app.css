@@ -31,6 +31,14 @@ time {
   color: var(--GrayishBlue);
 }
 
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
 .card {
   border-radius: 0.5rem;
   max-width: 330px;
@@ -141,6 +149,10 @@ time {
 
 .share-menu.active {
   display: flex;
+}
+
+.share-text {
+  cursor: pointer;
 }
 
 .information {
