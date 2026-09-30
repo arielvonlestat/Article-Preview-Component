@@ -44,7 +44,12 @@
             <span class="name">Michelle Appleton</span>
             <time datetime="2020-06-28">28 Jun 2020</time>
           </span>
-          <button class="share">
+          <button
+            class="share"
+            aria-label="Share this article"
+            aria-expanded="false"
+            aria-controls="share-menu"
+          >
             <img
               src="images/icon-share.svg"
               alt=""
@@ -53,7 +58,7 @@
             />
           </button>
         </address>
-        <div class="share-menu">
+        <div class="share-menu" id="share-menu">
           <span class="share-text">SHARE</span>
           <a href="https://www.facebook.com/">
             <img src="images/icon-facebook.svg" alt="Facebook link" />

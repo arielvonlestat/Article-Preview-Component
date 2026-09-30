@@ -4,6 +4,12 @@ const shareMenu = document.querySelector(".share-menu");
 shareButton.addEventListener("click", () => {
   shareMenu.classList.toggle("active");
   shareButton.classList.toggle("active");
+
+  if (shareMenu.classList.contains("active")) {
+    shareButton.setAttribute("aria-expanded", "true");
+  } else {
+    shareButton.setAttribute("aria-expanded", "false");
+  }
 });
 
 const shareText = document.querySelector(".share-text");
